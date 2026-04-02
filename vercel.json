@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://foodorders-backend-1.onrender.com"
+      "destination": "https://foodorders-backend-1.onrender.com/api/:path*"
     }
   ]
 }
